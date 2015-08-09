@@ -13,6 +13,7 @@ The CSS has custom styling for:
 * Unordered Lists (ul)
 * Images (figure img)
 * Image Captions (figure figcaption)
+* Tables (table)
 * Code (pre)
 
 An example of each of the above is available in _example.html_
