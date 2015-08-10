@@ -22,3 +22,7 @@ An example of each of the above is available in _example.html_
 * Sans-serif: Open Sans
 * Serif: Droid Serif
 * Code: Inconsolata
+
+#### TODO:
+* Center the content, instead of it being mostly left aligned
+* Add styling for h1, h2, and h3
