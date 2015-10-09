@@ -1,5 +1,5 @@
 # minimal-css
-A responsive, minimal, page layout -- optimized for legibility
+A responsive, minimal, page layout -- optimized for legibility.  [Example](http://errantmind.github.io/minimal-css/)
 
 #### About:
 This is a synthesis of Tufte's _handout_ style and Butterick’s _Practical Typography_ style
