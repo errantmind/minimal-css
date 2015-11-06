@@ -2,8 +2,7 @@
 A responsive, minimal, page layout -- optimized for legibility.  [Example](http://errantmind.github.io/minimal-css/)
 
 #### About:
-↬ Tufte's _handout_ styling
-↬ Butterick’s _Practical Typography_ styling
+↬ Tufte's _handout_ styling | ↬ Butterick’s _Practical Typography_ styling
 
 The CSS has custom styling for:
 * Page Headings (page-heading)
