@@ -29,6 +29,12 @@ body {
   min-width: 460px;
   padding: 1rem 8rem 2rem 0;
   width: 100%;
+  animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 body > * {
