@@ -2,7 +2,9 @@
 A responsive, minimal, page layout -- optimized for legibility.  [Example](http://errantmind.github.io/minimal-css/)
 
 #### About:
-This is a synthesis of Tufte's _handout_ style and Butterick’s _Practical Typography_ style
+↬ Tufte's _handout_ styling 
+
+↬ Butterick’s _Practical Typography_ styling
 
 The CSS has custom styling for:
 * Page Headings (page-heading)
@@ -14,6 +16,8 @@ The CSS has custom styling for:
 * Images (figure img)
 * Image Captions (figure figcaption)
 * Tables (table)
+* Quotes (quote)
+* Quote Citations (quote cite)
 * Code (pre)
 
 An example of each of the above is available in _example.html_
