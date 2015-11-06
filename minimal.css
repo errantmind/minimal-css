@@ -92,12 +92,12 @@ ol {
 }
 
 ol li:before {
-  content: counters(item, ".") ": ";
+  content: counters(item, ".") ".";
   counter-increment: item;
 }
 
 ul li:before {
-  content: "Ξ";
+  content: "ᗒ";
 }
 
 table {
@@ -163,6 +163,7 @@ quote {
 
 quote cite {
   display: block;
+  font-style: normal;
   text-align: right;
   margin-right: 1rem;
 }
@@ -202,6 +203,7 @@ a:hover {
 }
 
 a:after {
-  content: "°";
+  font-style: normal;
+  content: "ᐤ";
   color: #0000EE;
 }
