@@ -28,7 +28,7 @@ body {
   max-width: 1020px;
   min-width: 460px;
   padding: 1rem 8rem 2rem 0;
-
+  width: 100%;
 }
 
 body > * {
