@@ -29,7 +29,7 @@ body {
   min-width: 460px;
   padding: 1rem 8rem 2rem 0;
   width: 100%;
-  animation: fadein 0.5s;
+  animation: fadein 2s;
 }
 
 @keyframes fadein {
