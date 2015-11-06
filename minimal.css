@@ -97,6 +97,7 @@ ol li:before {
 }
 
 ul li:before {
+  font-family: "Lucida Grande","Arial Unicode MS", sans-serif;
   content: "ᗒ";
 }
 
