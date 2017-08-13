@@ -33,7 +33,7 @@ body {
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
+    from { opacity: 0.25; }
     to   { opacity: 1; }
 }
 
@@ -43,7 +43,17 @@ body > * {
   margin-right: 2rem;
 }
 
-page-heading {
+page-divider {
+  border-top: 0.2rem inset black;
+  font-family: "open-sans-extrabold";
+  font-size: 175%;
+  line-height: 1.15;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+page-footer {
   border-top: 0.2rem inset black;
   font-family: "open-sans-extrabold";
   font-size: 175%;
@@ -97,7 +107,7 @@ ol li:before {
 }
 
 ul li:before {
-  font-family: "Lucida Grande","Arial Unicode MS", sans-serif;
+  font-family: "Lucida Grande","Arial Unicode MS", "Arial", sans-serif;
   content: "ᗒ";
 }
 
@@ -169,7 +179,7 @@ quote cite {
   margin-right: 1rem;
 }
 
-quote cite:before {  
+quote cite:before {
   content:'— ';
 }
 
