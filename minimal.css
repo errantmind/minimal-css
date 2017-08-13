@@ -68,16 +68,24 @@ p {
   line-height: 1.35;
 }
 
+p  + ul {
+  margin-top: -0.5rem;
+}
+
+p  + ol {
+  margin-top: -0.5rem;
+}
+
 aside {
   font-family: "open-sans";
   font-size: 0.8rem;
-  line-height: 1.35;
   color: #888;
   display: block;
   position: absolute;
   left: 2rem;
   width: 8rem;
   text-align: right;
+  line-height: 1.75;
   margin-bottom: 1rem;
 }
 
@@ -88,13 +96,13 @@ li {
   list-style-position: outside;
   display: block;
   position: relative;
-  line-height: 1.35;
+  /*line-height: 1.35;*/
 }
 
 li:before {
   position: absolute;
   left: -2.5rem;
-  font-family: "open-sans";
+  /*font-family: "open-sans";*/
 }
 
 ol {
@@ -104,11 +112,14 @@ ol {
 ol li:before {
   content: counters(item, ".") ".";
   counter-increment: item;
+  line-height: 1.35;
 }
 
 ul li:before {
   font-family: "Lucida Grande","Arial Unicode MS", "Arial", sans-serif;
+  font-size: 75%;
   content: "ᗒ";
+  line-height: 1.75;
 }
 
 table {
