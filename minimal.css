@@ -43,24 +43,53 @@ body > * {
   margin-right: 2rem;
 }
 
-page-divider {
-  border-top: 0.2rem inset black;
-  font-family: "open-sans-extrabold";
-  font-size: 175%;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+  color: #2E2E2E;
   line-height: 1.15;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   display: block;
+  cursor: text;
 }
 
-page-footer {
-  border-top: 0.2rem inset black;
+h1 {
   font-family: "open-sans-extrabold";
+  border-top: 0.2rem inset black;
   font-size: 175%;
-  line-height: 1.15;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  display: block;
+}
+
+h2 {
+  font-family: "open-sans-extrabold";
+  font-size: 150%;
+}
+
+h3 {
+  font-family: "open-sans";
+  font-size: 125%;
+}
+
+h4 {
+  font-family: "open-sans";
+  font-size: 115%;
+}
+
+h5 {
+  font-family: "open-sans";
+  font-size: 110%;
+}
+
+h6 {
+  font-family: "open-sans";
+  font-size: 105%;
 }
 
 p {
